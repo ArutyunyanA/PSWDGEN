@@ -1,5 +1,6 @@
 use crate::constants::FIGLET_FONT;
 use figlet_rs::FIGfont;
+
 pub fn banner_print() {
     let font = FIGfont::from_content(FIGLET_FONT).expect("Failed to load embedded FIGlet font!");
 
