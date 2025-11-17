@@ -14,6 +14,9 @@ cargo install --path .
 
 ## Step 3: Usage.
 
+
+```bash
+
 MacBook-Air-Witcher:~ macintosh$ pswdgen -h
 Usage:
 
@@ -39,7 +42,6 @@ Description:
     Generates random passwords using cryptographic RNG (OsRng).
     Each password may optionally be labeled interactively.
 
-```bash
 
 MacBook-Air-Witcher:~ macintosh$ pswdgen 16 2
 
